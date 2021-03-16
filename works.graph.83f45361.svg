@@ -12,228 +12,228 @@
 <!-- language0 -->
 <g id="language0" class="node">
 <title>language0</title>
-<polygon fill="none" stroke="black" points="75.5,-36 21.5,-36 21.5,0 75.5,0 75.5,-36"/>
+<polygon fill="lightgray" stroke="lightgray" points="75.5,-36 21.5,-36 21.5,0 75.5,0 75.5,-36"/>
 <text text-anchor="middle" x="48.5" y="-14.3" font-family="Times,serif" font-size="14.00">C#</text>
 </g>
 <!-- language1 -->
 <g id="language1" class="node">
 <title>language1</title>
-<polygon fill="none" stroke="black" points="75.5,-522 21.5,-522 21.5,-486 75.5,-486 75.5,-522"/>
+<polygon fill="lightgray" stroke="lightgray" points="75.5,-522 21.5,-522 21.5,-486 75.5,-486 75.5,-522"/>
 <text text-anchor="middle" x="48.5" y="-500.3" font-family="Times,serif" font-size="14.00">CSS</text>
 </g>
 <!-- language2 -->
 <g id="language2" class="node">
 <title>language2</title>
-<polygon fill="none" stroke="black" points="79,-414 18,-414 18,-378 79,-378 79,-414"/>
+<polygon fill="lightgray" stroke="lightgray" points="79,-414 18,-414 18,-378 79,-378 79,-414"/>
 <text text-anchor="middle" x="48.5" y="-392.3" font-family="Times,serif" font-size="14.00">HTML</text>
 </g>
 <!-- language3 -->
 <g id="language3" class="node">
 <title>language3</title>
-<polygon fill="none" stroke="black" points="93.5,-468 3.5,-468 3.5,-432 93.5,-432 93.5,-468"/>
+<polygon fill="lightgray" stroke="lightgray" points="93.5,-468 3.5,-468 3.5,-432 93.5,-432 93.5,-468"/>
 <text text-anchor="middle" x="48.5" y="-446.3" font-family="Times,serif" font-size="14.00">JavaScript</text>
 </g>
 <!-- language4 -->
 <g id="language4" class="node">
 <title>language4</title>
-<polygon fill="none" stroke="black" points="87.5,-90 9.5,-90 9.5,-54 87.5,-54 87.5,-90"/>
+<polygon fill="lightgray" stroke="lightgray" points="87.5,-90 9.5,-90 9.5,-54 87.5,-54 87.5,-90"/>
 <text text-anchor="middle" x="48.5" y="-68.3" font-family="Times,serif" font-size="14.00">MATLAB</text>
 </g>
 <!-- language5 -->
 <g id="language5" class="node">
 <title>language5</title>
-<polygon fill="none" stroke="black" points="97,-360 0,-360 0,-324 97,-324 97,-360"/>
+<polygon fill="lightgray" stroke="lightgray" points="97,-360 0,-360 0,-324 97,-324 97,-360"/>
 <text text-anchor="middle" x="48.5" y="-338.3" font-family="Times,serif" font-size="14.00">PowerShell</text>
 </g>
 <!-- language6 -->
 <g id="language6" class="node">
 <title>language6</title>
-<polygon fill="none" stroke="black" points="82,-576 15,-576 15,-540 82,-540 82,-576"/>
+<polygon fill="lightgray" stroke="lightgray" points="82,-576 15,-576 15,-540 82,-540 82,-576"/>
 <text text-anchor="middle" x="48.5" y="-554.3" font-family="Times,serif" font-size="14.00">Python</text>
 </g>
 <!-- language7 -->
 <g id="language7" class="node">
 <title>language7</title>
-<polygon fill="none" stroke="black" points="75.5,-198 21.5,-198 21.5,-162 75.5,-162 75.5,-198"/>
+<polygon fill="lightgray" stroke="lightgray" points="75.5,-198 21.5,-198 21.5,-162 75.5,-162 75.5,-198"/>
 <text text-anchor="middle" x="48.5" y="-176.3" font-family="Times,serif" font-size="14.00">Rust</text>
 </g>
 <!-- language8 -->
 <g id="language8" class="node">
 <title>language8</title>
-<polygon fill="none" stroke="black" points="76.5,-306 20.5,-306 20.5,-270 76.5,-270 76.5,-306"/>
+<polygon fill="lightgray" stroke="lightgray" points="76.5,-306 20.5,-306 20.5,-270 76.5,-270 76.5,-306"/>
 <text text-anchor="middle" x="48.5" y="-284.3" font-family="Times,serif" font-size="14.00">SCSS</text>
 </g>
 <!-- language9 -->
 <g id="language9" class="node">
 <title>language9</title>
-<polygon fill="none" stroke="black" points="96,-252 1,-252 1,-216 96,-216 96,-252"/>
+<polygon fill="lightgray" stroke="lightgray" points="96,-252 1,-252 1,-216 96,-216 96,-252"/>
 <text text-anchor="middle" x="48.5" y="-230.3" font-family="Times,serif" font-size="14.00">TypeScript</text>
 </g>
 <!-- repository0 -->
 <g id="repository0" class="node">
 <title>repository0</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-396" rx="89.08" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-396" rx="89.08" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-392.3" font-family="Times,serif" font-size="14.00">Affine&#45;Transform</text>
 </g>
 <!-- repository0&#45;&#45;language2 -->
 <g id="repository0_language2" class="edge">
 <title>repository0&#45;&#45;language2</title>
-<path fill="none" stroke="black" d="M222.67,-396C172.91,-396 113.92,-396 79.21,-396"/>
+<path fill="none" stroke="lightgray" d="M222.67,-396C172.91,-396 113.92,-396 79.21,-396"/>
 </g>
 <!-- repository0&#45;&#45;language3 -->
 <g id="repository0_language3" class="edge">
 <title>repository0&#45;&#45;language3</title>
-<path fill="none" stroke="black" d="M234.1,-404.88C202.57,-409.24 165.81,-415.26 133,-423 120.1,-426.04 106.32,-430.14 93.76,-434.22"/>
+<path fill="none" stroke="lightgray" d="M234.1,-404.88C202.57,-409.24 165.81,-415.26 133,-423 120.1,-426.04 106.32,-430.14 93.76,-434.22"/>
 </g>
 <!-- repository1 -->
 <g id="repository1" class="node">
 <title>repository1</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-18" rx="178.97" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-18" rx="178.97" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-14.3" font-family="Times,serif" font-size="14.00">CompetitiveProgrammingLibraryCS</text>
 </g>
 <!-- repository1&#45;&#45;language0 -->
 <g id="repository1_language0" class="edge">
 <title>repository1&#45;&#45;language0</title>
-<path fill="none" stroke="black" d="M132.83,-18C110.56,-18 90.41,-18 75.5,-18"/>
+<path fill="none" stroke="lightgray" d="M132.83,-18C110.56,-18 90.41,-18 75.5,-18"/>
 </g>
 <!-- repository2 -->
 <g id="repository2" class="node">
 <title>repository2</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-72" rx="46.29" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-72" rx="46.29" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-68.3" font-family="Times,serif" font-size="14.00">ct&#45;math</text>
 </g>
 <!-- repository2&#45;&#45;language4 -->
 <g id="repository2_language4" class="edge">
 <title>repository2&#45;&#45;language4</title>
-<path fill="none" stroke="black" d="M265.34,-72C215.08,-72 134.96,-72 87.77,-72"/>
+<path fill="none" stroke="lightgray" d="M265.34,-72C215.08,-72 134.96,-72 87.77,-72"/>
 </g>
 <!-- repository2&#45;&#45;language7 -->
 <g id="repository2_language7" class="edge">
 <title>repository2&#45;&#45;language7</title>
-<path fill="none" stroke="black" d="M265.37,-71.38C228.03,-72.58 174.66,-78.33 133,-99 103.33,-113.72 77.4,-142.82 62.6,-161.84"/>
+<path fill="none" stroke="lightgray" d="M265.37,-71.38C228.03,-72.58 174.66,-78.33 133,-99 103.33,-113.72 77.4,-142.82 62.6,-161.84"/>
 </g>
 <!-- repository3 -->
 <g id="repository3" class="node">
 <title>repository3</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-234" rx="30.59" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-234" rx="30.59" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-230.3" font-family="Times,serif" font-size="14.00">ghfs</text>
 </g>
 <!-- repository3&#45;&#45;language7 -->
 <g id="repository3_language7" class="edge">
 <title>repository3&#45;&#45;language7</title>
-<path fill="none" stroke="black" d="M281.52,-231.03C246.07,-227.09 184.64,-219.19 133,-207 113.43,-202.38 91.84,-195.35 75.52,-189.62"/>
+<path fill="none" stroke="lightgray" d="M281.52,-231.03C246.07,-227.09 184.64,-219.19 133,-207 113.43,-202.38 91.84,-195.35 75.52,-189.62"/>
 </g>
 <!-- repository4 -->
 <g id="repository4" class="node">
 <title>repository4</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-180" rx="69.59" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-180" rx="69.59" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-176.3" font-family="Times,serif" font-size="14.00">impl&#45;encrypt</text>
 </g>
 <!-- repository4&#45;&#45;language7 -->
 <g id="repository4_language7" class="edge">
 <title>repository4&#45;&#45;language7</title>
-<path fill="none" stroke="black" d="M241.96,-180C187.34,-180 113.96,-180 75.5,-180"/>
+<path fill="none" stroke="lightgray" d="M241.96,-180C187.34,-180 113.96,-180 75.5,-180"/>
 </g>
 <!-- repository5 -->
 <g id="repository5" class="node">
 <title>repository5</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-126" rx="53.09" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-126" rx="53.09" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-122.3" font-family="Times,serif" font-size="14.00">lru&#45;cache</text>
 </g>
 <!-- repository5&#45;&#45;language7 -->
 <g id="repository5_language7" class="edge">
 <title>repository5&#45;&#45;language7</title>
-<path fill="none" stroke="black" d="M260.52,-131.43C224.7,-135.83 175.53,-142.96 133,-153 113.43,-157.62 91.84,-164.65 75.52,-170.38"/>
+<path fill="none" stroke="lightgray" d="M260.52,-131.43C224.7,-135.83 175.53,-142.96 133,-153 113.43,-157.62 91.84,-164.65 75.52,-170.38"/>
 </g>
 <!-- repository6 -->
 <g id="repository6" class="node">
 <title>repository6</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-450" rx="98.58" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-450" rx="98.58" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-446.3" font-family="Times,serif" font-size="14.00">NicoRandomPicker</text>
 </g>
 <!-- repository6&#45;&#45;language1 -->
 <g id="repository6_language1" class="edge">
 <title>repository6&#45;&#45;language1</title>
-<path fill="none" stroke="black" d="M245.78,-463.43C190.81,-474.79 114.86,-490.49 75.5,-498.62"/>
+<path fill="none" stroke="lightgray" d="M245.78,-463.43C190.81,-474.79 114.86,-490.49 75.5,-498.62"/>
 </g>
 <!-- repository6&#45;&#45;language2 -->
 <g id="repository6_language2" class="edge">
 <title>repository6&#45;&#45;language2</title>
-<path fill="none" stroke="black" d="M228.35,-440.32C198.15,-436.03 163.83,-430.28 133,-423 114.91,-418.73 95.1,-412.4 79.31,-406.94"/>
+<path fill="none" stroke="lightgray" d="M228.35,-440.32C198.15,-436.03 163.83,-430.28 133,-423 114.91,-418.73 95.1,-412.4 79.31,-406.94"/>
 </g>
 <!-- repository6&#45;&#45;language3 -->
 <g id="repository6_language3" class="edge">
 <title>repository6&#45;&#45;language3</title>
-<path fill="none" stroke="black" d="M212.79,-450C171.74,-450 126.09,-450 93.52,-450"/>
+<path fill="none" stroke="lightgray" d="M212.79,-450C171.74,-450 126.09,-450 93.52,-450"/>
 </g>
 <!-- technology0 -->
 <g id="technology0" class="node">
 <title>technology0</title>
-<polygon fill="none" stroke="black" points="713.66,-442.54 713.66,-457.46 658.82,-468 581.25,-468 526.4,-457.46 526.4,-442.54 581.25,-432 658.82,-432 713.66,-442.54"/>
+<polygon fill="lightgray" stroke="lightgray" points="713.66,-442.54 713.66,-457.46 658.82,-468 581.25,-468 526.4,-457.46 526.4,-442.54 581.25,-432 658.82,-432 713.66,-442.54"/>
 <text text-anchor="middle" x="620.03" y="-446.3" font-family="Times,serif" font-size="14.00">Azure Functions</text>
 </g>
 <!-- repository6&#45;&#45;technology0 -->
 <g id="repository6_technology0" class="edge">
 <title>repository6&#45;&#45;technology0</title>
-<path fill="none" stroke="black" d="M410.91,-450C447.92,-450 489.87,-450 526.36,-450"/>
+<path fill="none" stroke="lightgray" d="M410.91,-450C447.92,-450 489.87,-450 526.36,-450"/>
 </g>
 <!-- repository7 -->
 <g id="repository7" class="node">
 <title>repository7</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-342" rx="50.09" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-342" rx="50.09" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-338.3" font-family="Times,serif" font-size="14.00">Portfolio</text>
 </g>
 <!-- repository7&#45;&#45;language2 -->
 <g id="repository7_language2" class="edge">
 <title>repository7&#45;&#45;language2</title>
-<path fill="none" stroke="black" d="M263.56,-347.05C227.51,-351.42 176.74,-358.68 133,-369 114.91,-373.27 95.1,-379.6 79.31,-385.06"/>
+<path fill="none" stroke="lightgray" d="M263.56,-347.05C227.51,-351.42 176.74,-358.68 133,-369 114.91,-373.27 95.1,-379.6 79.31,-385.06"/>
 </g>
 <!-- repository7&#45;&#45;language5 -->
 <g id="repository7_language5" class="edge">
 <title>repository7&#45;&#45;language5</title>
-<path fill="none" stroke="black" d="M261.68,-342C214.54,-342 143.76,-342 97.11,-342"/>
+<path fill="none" stroke="lightgray" d="M261.68,-342C214.54,-342 143.76,-342 97.11,-342"/>
 </g>
 <!-- repository7&#45;&#45;language7 -->
 <g id="repository7_language7" class="edge">
 <title>repository7&#45;&#45;language7</title>
-<path fill="none" stroke="black" d="M263.75,-347.42C224.41,-349.3 169.05,-345.36 133,-315 94.3,-282.41 129.12,-246.09 97,-207 91.34,-200.11 83.43,-194.64 75.69,-190.48"/>
+<path fill="none" stroke="lightgray" d="M263.75,-347.42C224.41,-349.3 169.05,-345.36 133,-315 94.3,-282.41 129.12,-246.09 97,-207 91.34,-200.11 83.43,-194.64 75.69,-190.48"/>
 </g>
 <!-- repository7&#45;&#45;language8 -->
 <g id="repository7_language8" class="edge">
 <title>repository7&#45;&#45;language8</title>
-<path fill="none" stroke="black" d="M263.56,-336.95C227.51,-332.58 176.74,-325.32 133,-315 113.87,-310.49 92.82,-303.67 76.64,-298.01"/>
+<path fill="none" stroke="lightgray" d="M263.56,-336.95C227.51,-332.58 176.74,-325.32 133,-315 113.87,-310.49 92.82,-303.67 76.64,-298.01"/>
 </g>
 <!-- repository7&#45;&#45;language9 -->
 <g id="repository7_language9" class="edge">
 <title>repository7&#45;&#45;language9</title>
-<path fill="none" stroke="black" d="M262.17,-344.88C224.2,-344.84 171.57,-339.55 133,-315 108.67,-299.51 118.11,-280.66 97,-261 93.53,-257.77 89.6,-254.77 85.53,-252.03"/>
+<path fill="none" stroke="lightgray" d="M262.17,-344.88C224.2,-344.84 171.57,-339.55 133,-315 108.67,-299.51 118.11,-280.66 97,-261 93.53,-257.77 89.6,-254.77 85.53,-252.03"/>
 </g>
 <!-- repository9 -->
 <g id="repository9" class="node">
 <title>repository9</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-288" rx="113.98" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-288" rx="113.98" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-284.3" font-family="Times,serif" font-size="14.00">White&#45;Green.github.io</text>
 </g>
 <!-- repository7&#45;&#45;repository9 -->
 <g id="repository7_repository9" class="edge">
 <title>repository7&#45;&#45;repository9</title>
-<path fill="none" stroke="black" d="M311.73,-323.79C311.73,-317.91 311.73,-312.02 311.73,-306.14"/>
+<path fill="none" stroke="lightgray" d="M311.73,-323.79C311.73,-317.91 311.73,-312.02 311.73,-306.14"/>
 </g>
 <!-- repository8 -->
 <g id="repository8" class="node">
 <title>repository8</title>
-<ellipse fill="none" stroke="black" cx="311.73" cy="-558" rx="67.69" ry="18"/>
+<ellipse fill="lightgray" stroke="lightgray" cx="311.73" cy="-558" rx="67.69" ry="18"/>
 <text text-anchor="middle" x="311.73" y="-554.3" font-family="Times,serif" font-size="14.00">PyxelGames</text>
 </g>
 <!-- repository8&#45;&#45;language6 -->
 <g id="repository8_language6" class="edge">
 <title>repository8&#45;&#45;language6</title>
-<path fill="none" stroke="black" d="M244.07,-558C192.17,-558 122.41,-558 82.06,-558"/>
+<path fill="none" stroke="lightgray" d="M244.07,-558C192.17,-558 122.41,-558 82.06,-558"/>
 </g>
 <!-- repository9&#45;&#45;language2 -->
 <g id="repository9_language2" class="edge">
 <title>repository9&#45;&#45;language2</title>
-<path fill="none" stroke="black" d="M198.98,-290.64C175.87,-295.01 152.62,-302.52 133,-315 108.67,-330.49 118.11,-349.34 97,-369 91.72,-373.91 85.39,-378.29 79.1,-382.01"/>
+<path fill="none" stroke="lightgray" d="M198.98,-290.64C175.87,-295.01 152.62,-302.52 133,-315 108.67,-330.49 118.11,-349.34 97,-369 91.72,-373.91 85.39,-378.29 79.1,-382.01"/>
 </g>
 </g>
 </svg>
