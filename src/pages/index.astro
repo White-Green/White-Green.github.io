@@ -1,0 +1,394 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NicovideoEmbeddedLink from "../components/NicovideoEmbeddedLink.astro";
+import NicovideoSeriesEmbeddedLink from "../components/NicovideoSeriesEmbeddedLink.astro";
+---
+
+<Layout title="White-Green links page">
+    <main>
+        <div class="links_area">
+            <div class="left_side">
+                <div class="links">
+                    <div><a target="_blank" href="https://github.com/White-Green"><span>White-Green</span><img
+                            src="/external_assets/github_icon.svg"/></a></div>
+                    <div><a target="_blank" href="https://x.com/White_Green2525"><span>White_Green2525</span><img
+                            src="/external_assets/x_icon.png"/></a></div>
+                </div>
+                <div class="navigation">
+                    <a class="to_left" href="javascript:void(0)">←</a>
+                    <a class="to_center" href="javascript:void(0)">→</a>
+                </div>
+            </div>
+            <div class="right_side">
+                <div class="links">
+                    <div><a target="_blank" href="https://nicovideo.jp/user/37232305"><img
+                            src="/external_assets/niconico_icon.png"/><span>user/37232305</span></a></div>
+                    <div><a target="_blank" href="https://x.com/White_Green_vid"><img
+                            src="/external_assets/x_icon.png"/><span>White_Green_vid</span></a></div>
+                    <div><a target="_blank" href="https://voskey.icalo.net/@white_green@voskey.icalo.net"><img
+                            src="/external_assets/voskey_icon.png"/><span>@white_green</span></a></div>
+                </div>
+                <div class="navigation">
+                    <a class="to_right" href="javascript:void(0)">→</a>
+                    <a class="to_center" href="javascript:void(0)">←</a>
+                </div>
+            </div>
+            <img class="main_icon" src="/icon.png"/>
+        </div>
+        <div class="portfolio development">
+            <div>
+                <div>ニコニコ動画ランダム検索ツール: <a target="_blank"
+                                                        href="https://white-green.github.io/NicoRandomPicker">NicoRandomPicker</a>
+                </div>
+                <NicovideoEmbeddedLink video_id="sm37444076"/>
+                <NicovideoEmbeddedLink video_id="sm39245828"/>
+            </div>
+            <div>
+                <div>ぴた声アプリ設定csv自動生成ツール: <a target="_blank"
+                                                           href="https://white-green.github.io/pitagoecsvgen">pitagoecsvgen</a>
+                </div>
+                <NicovideoEmbeddedLink video_id="sm41454933"/>
+            </div>
+        </div>
+        <div class="portfolio creative">
+            <div>
+                <div>
+                    情報工学分野解説シリーズ
+                </div>
+                <div>
+                    <NicovideoSeriesEmbeddedLink series_id="237570"/>
+                </div>
+                <NicovideoEmbeddedLink video_id="sm42584921"/>
+                <NicovideoEmbeddedLink video_id="sm41876387"/>
+                <NicovideoEmbeddedLink video_id="sm40518176"/>
+            </div>
+        </div>
+    </main>
+</Layout>
+
+<style>
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    main .navigation > .to_center {
+        display: none;
+    }
+
+    main.development .navigation {
+        > .to_left {
+            display: none;
+        }
+
+        > .to_center {
+            display: inline;
+        }
+    }
+
+    main.creative .navigation {
+        > .to_right {
+            display: none;
+        }
+
+        > .to_center {
+            display: inline;
+        }
+    }
+
+    main.development > .links_area {
+        margin-left: 50%;
+    }
+
+    main.creative > .links_area {
+        margin-left: -50%;
+    }
+
+    .links_area {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        font-size: calc(min(3em, 7vw));
+        line-height: 2em;
+        transition: all 300ms 0s ease;
+
+        > * a {
+            text-decoration: none;
+            color: #252525;
+        }
+    }
+
+    .main_icon {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+        width: 10em;
+        justify-self: center;
+        border-radius: 100%;
+        background: #252525;
+        position: relative;
+    }
+
+    .links a > span {
+        display: none;
+        animation: fade_out 300ms 0s ease;
+    }
+
+    .links a:hover > span {
+        display: inline;
+        animation: fade_in 300ms 0s ease;
+    }
+
+    @keyframes fade_in {
+        0% {
+            display: none;
+            opacity: 0;
+        }
+        1% {
+            display: inline;
+            opacity: 0;
+        }
+        100% {
+            display: inline;
+            opacity: 1;
+        }
+    }
+
+    @keyframes fade_out {
+        0% {
+            display: inline;
+            opacity: 1;
+        }
+        99% {
+            display: inline;
+            opacity: 0;
+        }
+        100% {
+            display: none;
+            opacity: 0;
+        }
+    }
+
+    .links img {
+        height: 1em;
+        transform: translateY(0.2em);
+    }
+
+    .left_side {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        justify-self: right;
+        position: relative;
+
+        > .navigation {
+            position: relative;
+
+            > a {
+                margin-right: 5em;
+            }
+        }
+
+        > .links a > img {
+            margin-left: 0.5em;
+        }
+
+        > .links {
+            position: absolute;
+            right: 0;
+
+            > div {
+                text-align: right;
+                white-space: nowrap;
+            }
+
+            > :first-child {
+                margin-top: 5em;
+            }
+
+            > :nth-child(1) {
+                margin-right: 5.5em;
+            }
+
+            > :nth-child(2) {
+                margin-right: 4.9em;
+            }
+        }
+    }
+
+    .right_side {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        justify-self: left;
+        position: relative;
+
+        > .navigation {
+            position: relative;
+
+            > a {
+                margin-left: 5em;
+            }
+        }
+
+        > .links a > img {
+            margin-right: 0.5em;
+        }
+
+        > .links {
+            position: absolute;
+            left: 0;
+
+            > div {
+                white-space: nowrap;
+            }
+
+            > :first-child {
+                margin-top: 4.5em;
+            }
+
+            > :nth-child(1) {
+                margin-left: 5.5em;
+
+                > * > img {
+                    transform: translateY(0.2em) scale(1.5);
+                }
+            }
+
+            > :nth-child(2) {
+                margin-left: 5.2em;
+            }
+
+            > :nth-child(3) {
+                margin-left: 3.5em;
+            }
+        }
+    }
+
+    .portfolio {
+        display: none;
+        margin: 1em;
+        > div {
+            margin: 2em 0;
+        }
+    }
+
+    main .portfolio.development {
+        animation: portfolio_development_slideout 300ms 0s ease;
+    }
+
+    main.development .portfolio.development {
+        display: block;
+        animation: portfolio_development_slidein 300ms 0s ease;
+    }
+
+    @keyframes portfolio_development_slideout {
+        0% {
+            display: block;
+            transform: translateX(0);
+        }
+        99% {
+            display: none;
+            transform: translateX(-100%);
+        }
+        100% {
+            display: none;
+            transform: translateX(-100%);
+        }
+    }
+
+    @keyframes portfolio_development_slidein {
+        0% {
+            transform: translateX(-100%);
+        }
+        99% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    main .portfolio.creative {
+        animation: portfolio_creative_slideout 300ms 0s ease;
+    }
+
+    main.creative .portfolio.creative {
+        display: block;
+        animation: portfolio_creative_slidein 300ms 0s ease;
+    }
+
+    @keyframes portfolio_creative_slideout {
+        0% {
+            display: block;
+            transform: translateX(0);
+        }
+        99% {
+            display: none;
+            transform: translateX(100%);
+        }
+        100% {
+            display: none;
+            transform: translateX(100%);
+        }
+    }
+
+    @keyframes portfolio_creative_slidein {
+        0% {
+            transform: translateX(100%);
+        }
+        99% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+</style>
+<script>
+    const DEFAULT_TITLE = document.title;
+    function to_development() {
+        if (window.location.search !== "?development") {
+            window.history.pushState(null, null, "?development");
+        }
+        document.title = `${DEFAULT_TITLE} - development`;
+        document.querySelector("main").classList.add("development");
+    }
+
+    function to_creative() {
+        if (window.location.search !== "?creative") {
+            window.history.pushState(null, null, "?creative");
+        }
+        document.title = `${DEFAULT_TITLE} - creative`;
+        document.querySelector("main").classList.add("creative");
+    }
+
+    function to_center() {
+        if (window.location.search !== "") {
+            window.history.pushState(null, null, "/");
+        }
+        document.title = DEFAULT_TITLE;
+        let main = document.querySelector("main");
+        main.classList.remove("development");
+        main.classList.remove("creative");
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("development")) {
+        to_development();
+    } else if (params.has("creative")) {
+        to_creative();
+    } else {
+        to_center();
+    }
+    document.querySelector("a.to_right").addEventListener("click", () => {
+        to_creative();
+    });
+    document.querySelector("a.to_left").addEventListener("click", () => {
+        to_development();
+    });
+    document.querySelectorAll("a.to_center")
+        .forEach(e => e.addEventListener("click", () => {
+            to_center();
+        }));
+    window.addEventListener("popstate", _ => {
+        window.location.reload();
+    });
+</script>

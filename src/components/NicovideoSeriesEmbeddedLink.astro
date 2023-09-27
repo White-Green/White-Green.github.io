@@ -1,0 +1,8 @@
+---
+interface Props {
+    series_id: string;
+}
+
+const { series_id } = Astro.props;
+---
+<iframe width="312" height="176" src={`https://ext.nicovideo.jp/thumb_series/${series_id}`} scrolling="no" style="border:solid 1px #CCC;" frameborder="0"><a href={`https://www.nicovideo.jp/series/${series_id}`}>LINK</a></iframe>

@@ -1,0 +1,9 @@
+/*
+!/public
+!/src
+!/.gitignore
+!/astro.config.mjs
+!/package.json
+!/package-lock.json
+!/README.md
+!/tsconfig.json
